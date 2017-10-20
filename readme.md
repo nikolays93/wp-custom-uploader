@@ -1,6 +1,6 @@
 #### Uploader must be initialize before script enqueues
 
-`php
+```php
 $this->uploader = new WP_Custom_Uploader( array(
     'assets_dir' => PLUGINNAME_URL . '/includes/classes/',
     'advanced_variable' => array(
@@ -9,4 +9,4 @@ $this->uploader = new WP_Custom_Uploader( array(
 ) );
 
 $this->uploader->display();
-`
+```
